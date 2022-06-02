@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
+      <module name="Github.buildSrc" target="11" />
       <module name="Github.data" target="11" />
       <module name="Github.presentation" target="11" />
     </bytecodeTargetLevel>
