@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion(31)
+    compileSdkVersion(Config.compileSdkVersion)
 
     defaultConfig {
-        applicationId = "dev.ciox.github"
-        minSdkVersion(21)
-        targetSdkVersion(31)
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = Config.applicationId
+        minSdkVersion(Config.minSdkVersion)
+        targetSdkVersion(Config.targetSdkVersion)
+        versionCode = Config.versionCode
+        versionName = Config.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,9 +35,9 @@ android {
 
 dependencies {
 
-    implementation ("androidx.core:core-ktx:1.7.0")
-    implementation ("androidx.appcompat:appcompat:1.4.1")
-    implementation ("com.google.android.material:material:1.6.0")
+    implementation ("androidx.core:core-ktx:1.8.0")
+    implementation ("androidx.appcompat:appcompat:1.4.2")
+    implementation ("com.google.android.material:material:1.6.1")
     implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation ("junit:junit:4.13.2")
     androidTestImplementation ("androidx.test.ext:junit:1.1.3")

@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion(31)
+    compileSdkVersion(Config.compileSdkVersion)
 
     defaultConfig {
-        minSdkVersion(21)
-        targetSdkVersion(31)
-//        versionCode = 1
+        minSdkVersion(Config.minSdkVersion)
+        targetSdkVersion(Config.targetSdkVersion)
+//        versionCode = Config.versionCode
 //        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
