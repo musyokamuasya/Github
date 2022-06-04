@@ -12,15 +12,15 @@ android {
 //        versionCode = Config.versionCode
 //        versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = Config.testRunner
 //        consumerProguardFiles = "consumer-rules.pro"
     }
 
     buildTypes {
-        getByName("release"){
-            isMinifyEnabled = false
+        getByName(Config.release){
+            isMinifyEnabled = Config.minifyRelease
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+                    getDefaultProguardFile(Config.proguardOptimize), Config.proguardRelease
             )
         }
     }

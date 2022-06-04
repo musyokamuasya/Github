@@ -31,6 +31,19 @@ object Config {
     const val androidLib = "com.android.library"
     const val navigationSafePlugin = "androidx.navigation.safeargs"
     const val navigationSafeKotlin = "androidx.navigation.safeargs.kotlin"
-    const val fabricGradlePlugin = "io.fabric"
-    const val playService = "com.google.gms.google-services"    
+    const val playService = "com.google.gms.google-services"
+
+    const val proguardOptimize = "proguard-android-optimize.txt"
+
+    const val testRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+//    Build Types
+    const val debug = "debug"
+    const val release = "release"
+
+    const val minifyDebug = false
+    const val minifyRelease = false
+
+    const val proguardDebug = "proguard-rules.pro"
+    const val proguardRelease = "proguard-rules.pro"
 }
