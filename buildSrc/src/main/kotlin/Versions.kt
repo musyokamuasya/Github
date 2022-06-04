@@ -8,7 +8,7 @@ object Versions {
     internal const val constraintLayout = "2.1.4"
 
     internal const val jUnit = "4.13.2"
-    internal const val jUnitExt = "1.1.3"
+    internal const val jUnitTestExt = "1.1.3"
     internal const val espressoCore = "3.4.0"
 
 }

@@ -10,8 +10,8 @@ object Config {
 
 
 //    Build Plugins
-    const val androidPlugin = ""
-    const val kotlinPlugin = ""
+    const val gradlePlugin = "com.android.tools.build:gradle:${Versions.gradleVersion}"
+    const val kotlinPlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlinGradlePlugin}"
     const val navigationSafe = ""
     const val googleService = ""
     const val fabric = ""
@@ -21,7 +21,7 @@ object Config {
     const val androidApplication = "com.android.application"
     const val hiltPlugin = "dagger.hilt.android.plugin"
     const val kotlin = "kotlin"
-    const val kotlinAndroid = "android"
+    const val kotlinAndroid = "kotlin-android"
     const val kotlinExt = "android.extensions"
     const val kotlinApt = "kapt"
     const val javaLib = "java-library"
@@ -29,5 +29,5 @@ object Config {
     const val navigationSafePlugin = "androidx.navigation.safeargs"
     const val navigationSafeKotlin = "androidx.navigation.safeargs.kotlin"
     const val fabricGradlePlugin = "io.fabric"
-    const val playService = "com.google.gms.google-services"
+    const val playService = "com.google.gms.google-services"    
 }
