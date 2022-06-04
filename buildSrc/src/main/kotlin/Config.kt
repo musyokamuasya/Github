@@ -1,5 +1,8 @@
 object Config {
 
+//    Java
+    const val jvmTarget = "1.8"
+
 //    Android versions
     const val minSdkVersion = 21
     const val targetSdkVersion = 31
