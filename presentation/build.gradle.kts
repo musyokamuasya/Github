@@ -4,6 +4,7 @@ plugins {
     kotlin(Config.kotlinApt)
 //    id (Config.kotlinApt)
     id (Config.hiltPlugin)
+    id (Config.navigationSafeKotlin)
 }
 
 android {
