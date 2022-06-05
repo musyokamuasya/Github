@@ -18,7 +18,7 @@ object Config {
     const val navigationSafe = ""
     const val googleService = ""
     const val fabric = ""
-    const val hilt = ""
+    const val hilt = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
 
 //    Gradle Plugins
     const val androidApplication = "com.android.application"
