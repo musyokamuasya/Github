@@ -15,10 +15,10 @@ object Config {
 //    Build Plugins
     const val gradlePlugin = "com.android.tools.build:gradle:${Versions.gradleVersion}"
     const val kotlinPlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlinGradlePlugin}"
-    const val navigationSafe = ""
+    const val navigationSafe = "androidx.navigation:navigation-safe-args-gradle-plugin:${Versions.navigation}"
     const val googleService = ""
     const val fabric = ""
-    const val hilt = ""
+    const val hilt = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
 
 //    Gradle Plugins
     const val androidApplication = "com.android.application"

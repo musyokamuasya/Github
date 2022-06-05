@@ -1,6 +1,10 @@
 plugins {
     id (Config.androidApplication)
     id (Config.kotlinAndroid)
+    kotlin(Config.kotlinApt)
+//    id (Config.kotlinApt)
+    id (Config.hiltPlugin)
+    id (Config.navigationSafeKotlin)
 }
 
 android {
@@ -39,6 +43,8 @@ dependencies {
     implementation (Libraries.appCompat)
     implementation (Libraries.material)
     implementation (Libraries.constraintLayout)
+    implementation(Libraries.hilt)
+    kapt(Libraries.hiltCompiler)
     testImplementation (Libraries.jUnit)
     androidTestImplementation (Libraries.jUnitTestExt)
     androidTestImplementation (Libraries.espressoCore)
