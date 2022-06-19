@@ -2,7 +2,6 @@ plugins {
     id (Config.androidApplication)
     id (Config.kotlinAndroid)
     kotlin(Config.kotlinApt)
-//    id (Config.kotlinApt)
     id (Config.hiltPlugin)
     id (Config.navigationSafeKotlin)
 }
